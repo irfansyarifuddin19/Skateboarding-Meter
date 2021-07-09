@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Skateboarding Meter</string>
+    <string name="kecepatan_awal">0.0 m/s</string>
+    <string name="speedometer">SpeedoMeter</string>
+    <string name="kecepatan">Kecepatan</string>
+    <string name="lompatan">Lompatan</string>
+    <string name="lompatan_awal">0</string>
+    <string name="btnspeedometer">Start</string>
+    <string name="btnhelp">Help</string>
+    <string name="btnabout">About</string>
+</resources>

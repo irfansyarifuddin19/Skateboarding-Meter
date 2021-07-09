@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bantuan"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Untuk memulai Skateboarding Meter pilih Start pada menu"
+                android:textSize="20sp" />
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/ImageView1"
+                android:src="@drawable/tombol"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jika Speedometer tidak menunjukkan perubahan kecepatan, coba untuk memeriksa apakah Location/ GPS sudah aktif atau belum, jika belum aktif, coba untuk mengaktifkan GPS/ Location pada ponsel anda "
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:layout_gravity="center"
+                android:src="@drawable/location" />
+            <Button
+                android:id="@+id/btn_back_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Back"
+                />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
